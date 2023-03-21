@@ -1,0 +1,30 @@
+
+    <form method="post">
+        {% csrf_token %}
+        <body>
+          <div class="container" >
+            <form method="post">
+                {% csrf_token %}
+                <h5> <body>
+                  <div class="container">
+                    <form action="#">
+                      <h1> 
+                      <div class="title">Register</div></h1>
+                      <form action="register.php" method="POST"></form>
+                      <br>
+                      <div class="input-box underline">
+                        <input type="text" name="username" placeholder="Enter Your Username" required="" size="30"><br><br>
+                        <div class="underline"></div>
+                      </div>
+                      <div class="input-box">
+                        <input type="password" name="password" placeholder="Enter Your Password" required="" size="30"><br><br>
+                        <div class="underline"></div>
+                      </div>
+                      <!-- <div class="input-box button">
+                        <input type="submit" name="" value="Login">
+                      </div> -->
+                      <div class="fix-4-12">
+                        <input type="submit" class="button wide blue gradient ae-10 margin-top-1 cropBottom" value="Register">
+                      </div>
+                    </form>
+                  </div>
